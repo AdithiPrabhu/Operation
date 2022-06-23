@@ -3,7 +3,7 @@ class add
  public static void main(String args[])
   {
    int a=5,b=2,c;
-       c=a+b;
+       d=a-b;
    System.out.println("Value of a="+a);
    System.out.println("Value of b="+b);
    System.out.println("Value of c="+c);
