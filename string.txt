@@ -1,0 +1,22 @@
+import java.lang.*;
+class stdemo1
+{
+ static StringBuffer st1=new StringBuffer("Java  Language");
+ static StringBuffer pt5=new StringBuffer(" & is Platform independent");
+ public static void main(String args[])
+  {
+   System.out.println("Given String is:"+st1);
+   int lst1=st1.length();
+   System.out.println("Length of giving string is:"+lst1);
+   st1.insert(5,"a Evolutionary");
+   System.out.println("\n String after inserting a substring:");
+   System.out.println(st1);
+   System.out.println("\n modified string after replacing a charecter");
+   st1.setCharAt(7,'R');
+   st1.insert(8,'e');
+   System.out.println(st1);
+   st1.append(pt5);
+   System.out.println("\n modified string after appending substring");
+   System.out.println(st1);
+  }
+}
